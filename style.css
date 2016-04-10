@@ -1,0 +1,130 @@
+/*Site Wide*/
+
+body {
+	font-family: "Monotype Baskerville W01",serif;
+	color: #302a2c;
+	font-size: 15px;
+	line-height: 1.533;
+	letter-spacing: 0.025em;
+}
+
+.hidden  { display: none; }
+
+
+.container {
+	width: 100%;
+}
+
+h1 {
+	border-top: #797979 1px solid;
+	border-bottom: #969696 1px solid;
+	text-align: center;
+	font-family: "Proxima Nova W01",sans-serif;
+	 line-height: 2.25; 
+	letter-spacing: 0.42em;
+	text-transform: uppercase;
+	font-weight: 100;
+	width: 90%;
+	margin: 20px auto;
+	padding: 4px;
+	font-size: 1em;
+}
+
+nav { height: 100px; }
+nav img { 
+	max-width: 100px;
+	margin: 30px auto;
+	display: block;}
+
+/*Information Display*/
+.info-container {
+	display: flex;
+	/*justify-content: center;*/
+	flex-wrap: nowrap;
+	height: 350px;
+	overflow: hidden;
+}
+.display-box {
+	width: 25%;
+	height: 300px;
+	border: 1px solid black;
+	margin: 20px;
+	border-radius: 2px;
+	background: rgba(255, 241, 238, .8);
+	border: white 5px solid;
+	outline: rgba(255, 241, 238, .8) 6px solid;
+	transition: all .3s ease-in-out;
+	transform: translateX(30%);
+	}
+
+.display-box img {
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	margin: 12px;
+	float: left;
+}
+
+/*Information Style*/
+.name {
+	font-family: "Proxima Nova W01",sans-serif;
+	font-size: 9.5px;
+	letter-spacing: .22em;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+	font-weight: 400;
+}
+
+li .info {
+	display: none;
+}
+
+li img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 10px;
+}
+
+li .info2 { display: none;}
+.info { 
+	padding: 10px;
+	right: 0px;
+	text-align: left;
+	 }
+.phone { 
+	margin: 0px;
+	font-family: "Proxima Nova W01",sans-serif;
+	font-size: .8em;
+	 }
+
+.info2 { padding: 10px;}
+
+
+
+/*Thumbnails*/
+.thumbs-container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.thumbs-container ul li {
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+}
+
+/*Credit Card*/
+.cc-check {
+	text-align: center;
+}
+
+button {
+	padding: 10px;
+	font-family: "Proxima Nova W01",sans-serif;
+	line-height: 2.25; 
+	letter-spacing: 0.42em;
+	margin: 10px;
+}
